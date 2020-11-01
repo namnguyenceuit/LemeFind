@@ -16,7 +16,9 @@ public:
 private slots:
     void openAbout();
     void openUpdate();
+    void openReadme();
     void exitApp();
+    void openOutputFolder();
 
 private:
     Ui::MainWindow *ui;
