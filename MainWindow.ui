@@ -26,7 +26,7 @@
     <property name="title">
      <string>Rules</string>
     </property>
-    <widget class="QCheckBox" name="ignoreCmt_checkBox_2">
+    <widget class="QCheckBox" name="ignoreCmtCheckBox">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -39,7 +39,7 @@
       <string>Ignore comment</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="operator_comboBox_2">
+    <widget class="QComboBox" name="operatorComboBox">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -49,7 +49,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="number1_textBox_2">
+    <widget class="QLineEdit" name="number1TextBox">
      <property name="geometry">
       <rect>
        <x>270</x>
@@ -59,7 +59,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QCheckBox" name="numOfResults_checkBox_2">
+    <widget class="QCheckBox" name="numOfResultsCheckBox">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -85,7 +85,7 @@
       <string>and</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="number2_textBox_2">
+    <widget class="QLineEdit" name="number2TextBox">
      <property name="geometry">
       <rect>
        <x>360</x>
@@ -95,7 +95,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QCheckBox" name="caseSensitive_checkBox_2">
+    <widget class="QCheckBox" name="caseSensitiveCheckBox">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -108,7 +108,7 @@
       <string>Case sensitive</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="wholeWord_checkBox_2">
+    <widget class="QCheckBox" name="wholeWordCheckBox">
      <property name="geometry">
       <rect>
        <x>220</x>
@@ -147,7 +147,7 @@
       <string>Files to include:</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="fileToInclude_comboBox_2">
+    <widget class="QComboBox" name="fileToIncludeComboBox">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -166,7 +166,7 @@
       <number>-1</number>
      </property>
     </widget>
-    <widget class="QComboBox" name="fileToExclude_comboBox_2">
+    <widget class="QComboBox" name="fileToExcludeComboBox">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -224,7 +224,7 @@
     <property name="title">
      <string>Input</string>
     </property>
-    <widget class="QPushButton" name="listSearchFileBrowse_Button_2">
+    <widget class="QPushButton" name="searchInputBrowse">
      <property name="geometry">
       <rect>
        <x>390</x>
@@ -263,7 +263,7 @@
       <string>Search directory:</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="listSearchFile_comboBox_2">
+    <widget class="QComboBox" name="searchInput">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -282,7 +282,7 @@
       <number>-1</number>
      </property>
     </widget>
-    <widget class="QComboBox" name="directory_comboBox_2">
+    <widget class="QComboBox" name="searchDirectory">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -295,7 +295,7 @@
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QPushButton" name="directoryBrowse_Button_2">
+    <widget class="QPushButton" name="searchDirectoryBrowse">
      <property name="geometry">
       <rect>
        <x>390</x>
@@ -321,7 +321,7 @@
     <property name="title">
      <string/>
     </property>
-    <widget class="QPlainTextEdit" name="consoleBox_2">
+    <widget class="QPlainTextEdit" name="consoleBox">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -334,7 +334,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QProgressBar" name="progressBar_2">
+    <widget class="QProgressBar" name="progressBar">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -350,7 +350,7 @@
       <bool>false</bool>
      </property>
     </widget>
-    <widget class="QPushButton" name="search_Button_2">
+    <widget class="QPushButton" name="searchButton">
      <property name="geometry">
       <rect>
        <x>320</x>
@@ -363,7 +363,7 @@
       <string>Search</string>
      </property>
     </widget>
-    <widget class="QLabel" name="fileName_Label_2">
+    <widget class="QLabel" name="fileNameLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -376,7 +376,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="output_Button_2">
+    <widget class="QPushButton" name="outputButton">
      <property name="geometry">
       <rect>
        <x>320</x>
