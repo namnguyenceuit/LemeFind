@@ -1,0 +1,19 @@
+#Visual Studio
+*.vcxproj
+*.filters
+*.user
+*.qrc
+*.log
+*.recipe
+*.tlog
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.obj
+*.props
+*.pdb
+*.stash
+*.idx
+*.pro
+x64/Release/qmake/temp/
+x64/Debug/moc/
+x64/Debug/rcc/
